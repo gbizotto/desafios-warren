@@ -16,10 +16,10 @@ Exemplo do request inicial:
 
 Exemplo do response inicial:
 
-![Response inicial](https://raw.githubusercontent.com/warrenbrasil/desafio-suitability-warren/master/images/2.png =600x507)
+![Response inicial](https://raw.githubusercontent.com/warrenbrasil/desafio-suitability-warren/master/images/2.png)
 
 Exemplo de request de etapa da conversação:
-![Request da etapa de conversação](https://raw.githubusercontent.com/warrenbrasil/desafio-suitability-warren/master/images/3.png =603x261)
+![Request da etapa de conversação](https://raw.githubusercontent.com/warrenbrasil/desafio-suitability-warren/master/images/3.png)
 
 Ao explorar os `requests` e `reponses` da API você pode notar quais os mapeamentos necessarios. (faz parte do desafio)
 
@@ -68,10 +68,10 @@ Suitability Warren na Web:
 https://oiwarren.com/app/#/suitability
 
 ## Documentação:
-![Documentação](https://raw.githubusercontent.com/warrenbrasil/desafio-suitability-warren/master/images/4.png =604x442)
+![Documentação](https://raw.githubusercontent.com/warrenbrasil/desafio-suitability-warren/master/images/4.png)
 
 **Exemplo resposta:**
-![Exemplo 1](https://raw.githubusercontent.com/warrenbrasil/desafio-suitability-warren/master/images/5.png =599x263)
-![Exemplo 2](https://raw.githubusercontent.com/warrenbrasil/desafio-suitability-warren/master/images/6.png =599x229)
-![Exemplo 3](https://raw.githubusercontent.com/warrenbrasil/desafio-suitability-warren/master/images/7.png =602x327)
-![Exemplo 4](https://raw.githubusercontent.com/warrenbrasil/desafio-suitability-warren/master/images/8.png =601x221)
+![Exemplo 1](https://raw.githubusercontent.com/warrenbrasil/desafio-suitability-warren/master/images/5.png)
+![Exemplo 2](https://raw.githubusercontent.com/warrenbrasil/desafio-suitability-warren/master/images/6.png)
+![Exemplo 3](https://raw.githubusercontent.com/warrenbrasil/desafio-suitability-warren/master/images/7.png)
+![Exemplo 4](https://raw.githubusercontent.com/warrenbrasil/desafio-suitability-warren/master/images/8.png)
