@@ -12,7 +12,7 @@ Exemplo de URL da rota de conversation: https://hml-api.oiwarren.com/api/v2/conv
 
 Exemplo do request inicial:
 
-![Request Inicial](https://raw.githubusercontent.com/warrenbrasil/desafio-suitability-warren/master/images/1.png =601x209)
+![Request Inicial](https://raw.githubusercontent.com/warrenbrasil/desafio-suitability-warren/master/images/1.png)
 
 Exemplo do response inicial:
 
