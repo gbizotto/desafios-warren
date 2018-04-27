@@ -12,14 +12,14 @@ Exemplo de URL da rota de conversation: https://hml-api.oiwarren.com/api/v2/conv
 
 Exemplo do request inicial:
 
-![Screen Shot 2018-04-27 at 18.35.18.png](quiver-image-url/930E56D30CD35D76DAF10C40333E16F4.png =601x209)
+![Request Inicial](https://raw.githubusercontent.com/warrenbrasil/desafio-suitability-warren/master/images/1.png =601x209)
 
 Exemplo do response inicial:
 
-![Screen Shot 2018-04-27 at 18.36.54.png](quiver-image-url/13328B2C964973EFD56A2C300E5565F8.png =600x507)
+![Response inicial](https://raw.githubusercontent.com/warrenbrasil/desafio-suitability-warren/master/images/2.png =600x507)
 
 Exemplo de request de etapa da conversação:
-![Screen Shot 2018-04-27 at 18.38.40.png](quiver-image-url/0E13E729F3327B635E428D320BFA6D4F.png =603x261)
+![Request da etapa de conversação](https://raw.githubusercontent.com/warrenbrasil/desafio-suitability-warren/master/images/3.png =603x261)
 
 Ao explorar os `requests` e `reponses` da API você pode notar quais os mapeamentos necessarios. (faz parte do desafio)
 
@@ -68,10 +68,10 @@ Suitability Warren na Web:
 https://oiwarren.com/app/#/suitability
 
 ## Documentação:
-![4.png](quiver-image-url/C614EA74B759B1CB73ECB050284B9F45.png =604x442)
+![Documentação](https://raw.githubusercontent.com/warrenbrasil/desafio-suitability-warren/master/images/4.png =604x442)
 
 **Exemplo resposta:**
-![5.png](quiver-image-url/AC58D80F79BB31486906A9AE535A0C4D.png =599x263)
-![6.png](quiver-image-url/B9310BB1DE3A701732A5541BA4D1942D.png =599x229)
-![7.png](quiver-image-url/0E87E318CCC95A967FB3E2B2622531ED.png =602x327)
-![8.png](quiver-image-url/4B188B018E3158F6C9BCAD9D79FA0F17.png =601x221)
+![Exemplo 1](https://raw.githubusercontent.com/warrenbrasil/desafio-suitability-warren/master/images/5.png =599x263)
+![Exemplo 2](https://raw.githubusercontent.com/warrenbrasil/desafio-suitability-warren/master/images/6.png =599x229)
+![Exemplo 3](https://raw.githubusercontent.com/warrenbrasil/desafio-suitability-warren/master/images/7.png =602x327)
+![Exemplo 4](https://raw.githubusercontent.com/warrenbrasil/desafio-suitability-warren/master/images/8.png =601x221)
