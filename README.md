@@ -71,6 +71,7 @@ https://oiwarren.com/app/#/suitability
 ![Documentação](https://raw.githubusercontent.com/warrenbrasil/desafio-suitability-warren/master/images/4.png)
 
 **Exemplo resposta:**
+
 ![Exemplo 1](https://raw.githubusercontent.com/warrenbrasil/desafio-suitability-warren/master/images/5.png)
 ![Exemplo 2](https://raw.githubusercontent.com/warrenbrasil/desafio-suitability-warren/master/images/6.png)
 ![Exemplo 3](https://raw.githubusercontent.com/warrenbrasil/desafio-suitability-warren/master/images/7.png)
