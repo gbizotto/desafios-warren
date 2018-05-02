@@ -1,78 +1,37 @@
-# Desafio Warren
+# Desafios Warren Brasil.
 
-Chegou a hora de você conhecer um pouquinho sobre os desafios enfrentamos e as tecnologias que utilizamos aqui no Warren! Pra começar, você lembra quando entrou a pela primeira vez nos nossos aplicativos? Você bateu um "papo" com o Warren e ele te fez uma série de perguntas para definir o teu "Perfil de Investidor". O chat "Descobrindo seu Perfil" (codenome `suitability`) é a análise de perfil de investimento do usuário através de perguntas e respostas. Ao final dessa conversa é exibida uma tela com os resultados do perfil de investidor. (ex: links) E esse é o seu desafio! Implementar a sua versão do suitability na plataforma de sua escolha (Android, iOS, WEB) utilizando a nossa API.
+Junte-se a pessoas incríveis e ajude a criar uma nova geração de investidores.
 
-## Como:
+Neste espaço serão divulgados desafios de código/design/arquiteturas/segurança/etc que resumem alguns dos principais desafios que você encontraria ao trabalhar com a gente.
 
-Para começar recomendamos exploração da nossa API de conversação utilizando um software de testes de API (como o Postman) para assim conhecer e testar o seu funcionamento.
+Fique ligado que sempre divulgamos as oportunidades abertas no `Warren Brasil` através desse link:
+https://github.com/warrenbrasil/jobs/
 
-URL base da API do Warren: https://hml-api.oiwarren.com/
+# Como resolver um desafio
 
-Exemplo de URL da rota de conversation: https://hml-api.oiwarren.com/api/v2/conversation/message
+1. Crie um fork desse repositório.
+2. Escolha o desafio a ser resolvido.
+3. Resolva o desafio escolhido dentro de sua respectiva pasta.
+4. Descreva sua solução preenchendo o arquivo SOLUÇÃO.md correspondente a pasta do desafio escolhido.
+5. Crie um PR (Pull Request) para nosso repositório principal.
 
-Exemplo do request inicial:
 
-![Request Inicial](https://raw.githubusercontent.com/warrenbrasil/desafio-suitability-warren/master/images/1.png)
+# Quem é o Warren?
 
-Exemplo do response inicial:
+Warren é uma fintech localizada em Porto Alegre, que tem como principal objetivo descomplicar o obscuro mundo dos investimentos e convencer as pessoas de que cuidar de suas finanças pessoais pode ser algo leve, simples e até divertido. Somos uma plataforma online que incentiva o usuário a criar objetivos e investir neles, mostrando que seu primeiro milhão ou viagem ao redor do mundo podem estar mais próximos do que imagina.
 
-![Response inicial](https://raw.githubusercontent.com/warrenbrasil/desafio-suitability-warren/master/images/2.png)
+Existimos para facilitar a vida de quem quer investir bem o seu dinheiro, sem o blá-blá-blá, gravatas e taxas que os bancos oferecem. Nossa proposta envolve um investimento com transparência, agilidade e empatia. Já são mais de 10 mil pessoas que confiam seus sonhos e metas ao Warren e é por isso que precisamos estar disponíveis em todas as plataformas. Queremos que todos tenham acesso ao Warren e que possam acompanhar seus investimentos onde quer que estejam.
 
-Exemplo de request de etapa da conversação:
-![Request da etapa de conversação](https://raw.githubusercontent.com/warrenbrasil/desafio-suitability-warren/master/images/3.png)
+https://oiwarren.com/quem-somos/
 
-Ao explorar os `requests` e `reponses` da API você pode notar quais os mapeamentos necessarios. (faz parte do desafio)
 
-Lembre que a única `key` (id) das perguntas que é garantida não mudar é a `final`. Essa key indica que o conversation acabou e que as respostas acumuladas até agora podem ser usadas para a criação de um perfil. Então sugerimos não mapear as keys de respostas estaticamente.
+# Com quem você vai trabalhar
 
-## Tecnologias
-As tecnologias utilizadas podem ser a escolha do participante. Algumas tecnologias recomendadas são:
+Você irá trabalhar com uma equipe multidisciplinar (designers, desenvolvedores, marketing, etc) que desenvolve toda experiência inovadora de investir com o Warren. 
 
-**Android:**
-* Kotlin
-* Retrofit
+Em um ambiente de startup legal com pessoas comprometidas, horário flexível, bastante café, práticas ágeis (kanban, priorização etc) e uma baita oportunidade de crescimento profissional e aprendizado.
 
-**iOS:**
-* Swift
-* Alamofire
-* View Code (Sem storyboard)
 
-**Web:**
-* AngularJS, ReactJS ou VueJS
+# Dúvidas/Sugestões ?
 
-## O que será avaliado:
-
-**Principal:**
-* Capacidade de “se virar” e “Get shit done”;
-* Lógica, modularização, organização e clareza de código;
-* Read Me;
-* Estrutura de solução dos problemas;
-
-**Interessante: (não fundamental)**
-* Arquitetura da solução;
-* Preocupação com UX;
-* Seguir guidelines e padrões do sistema iOS/Android/Web;
-
-**Entrega:**
-* Envio do link do fork desse repositório, com o código da solução.
-
-## Links úteis:
-
-Suitability Warren no Android:
-https://play.google.com/store/apps/details?id=com.oiwarren.oiwarren
-
-Suitability Warren no iOS:
-https://itunes.apple.com/br/app/id1114394063
-
-Suitability Warren na Web:
-https://oiwarren.com/app/#/suitability
-
-## Documentação:
-![Documentação](https://raw.githubusercontent.com/warrenbrasil/desafio-suitability-warren/master/images/4.png)
-
-**Exemplo resposta:**
-
-![Exemplo 1](https://raw.githubusercontent.com/warrenbrasil/desafio-suitability-warren/master/images/5.png)
-![Exemplo 2](https://raw.githubusercontent.com/warrenbrasil/desafio-suitability-warren/master/images/6.png)
-![Exemplo 3](https://raw.githubusercontent.com/warrenbrasil/desafio-suitability-warren/master/images/7.png)
-![Exemplo 4](https://raw.githubusercontent.com/warrenbrasil/desafio-suitability-warren/master/images/8.png)
+Submeter uma `issue` ou nos contatar pelo e-mail `staff@oiwarren.com`
