@@ -1,5 +1,7 @@
 package com.gbizotto.suitability.repository
 
+import com.gbizotto.suitability.data.api.MessageApi
+import com.gbizotto.suitability.data.input.InitialConversationInput
 import com.gbizotto.suitability.data.output.ConversationOutput
 import com.gbizotto.suitability.model.Question
 import com.gbizotto.suitability.transferobject.ConversationTO
@@ -9,19 +11,31 @@ import org.junit.Test
 
 class MessageRepositoryTest {
 
-    val callback = mockk<ConversationCallback>(relaxed = true)
+    private val callback = mockk<ConversationCallback>(relaxed = true)
+
+    private val messageApi = mockk<MessageApi>(relaxed = true)
 
     private val conversationTO = ConversationTO(mockMessages())
 
     private val currentQuestion = Question("", emptyList(), "", emptyList(), emptyList())
 
-    //TODO mock da api
+
+    @Test
+    fun whenIsFirstAccess_andPostIsSuccessfull_mustStartConversation() {
+        val repository = MessageRemoteRepository(messageApi)
+        repository.startConversation()
+
+        val expectedInput = InitialConversationInput("suitability")
+
+        verify { messageApi.startConversation(expectedInput) }
+    }
 
     @Test
     fun whenPostIsSuccessfull_mustReturnNextQuestion() {
-        val repository = MessageRemoteRepository()
+        val repository = MessageRemoteRepository(messageApi)
         repository.postConversation(conversationTO, currentQuestion, callback)
 
+        verify { messageApi.startConversation(any()) }
         verify { callback.onNextQuestion(any()) }
     }
 

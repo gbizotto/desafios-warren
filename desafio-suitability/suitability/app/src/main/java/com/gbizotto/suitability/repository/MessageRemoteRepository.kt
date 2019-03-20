@@ -7,21 +7,20 @@ import com.gbizotto.suitability.transferobject.ConversationTO
 import javax.inject.Inject
 
 class MessageRemoteRepository @Inject constructor(private val messageApi: MessageApi) : MessageRepository {
+    override fun startConversation() {
+        messageApi.startConversation(ConversationInputMapper.toInitialConversationInput())
+    }
+
     override fun postConversation(
         conversationTO: ConversationTO,
         currentQuestion: Question,
         conversationCallback: ConversationCallback
     ) {
-
-        if (conversationTO.messages.size == 1) {
-            messageApi.startConversation(ConversationInputMapper.toInitialConversationInput())
-        } else {
-            messageApi.submitConversation(
-                ConversationInputMapper.toConversationInput(
-                    conversationTO,
-                    currentQuestion
-                )
+        messageApi.submitConversation(
+            ConversationInputMapper.toConversationInput(
+                conversationTO,
+                currentQuestion
             )
-        }
+        )
     }
 }

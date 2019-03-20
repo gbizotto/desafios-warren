@@ -9,4 +9,6 @@ interface MessageRepository {
         currentQuestion: Question,
         conversationCallback: ConversationCallback
     )
+
+    fun startConversation()
 }
